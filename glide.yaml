@@ -10,5 +10,7 @@ import:
 - package: github.com/gorilla/mux
 - package: github.com/unrolled/render
 - package: gopkg.in/mgo.v2
+- package: github.com/mitchellh/mapstructure
+- package: github.com/pborman/uuid
   subpackages:
   - bson
