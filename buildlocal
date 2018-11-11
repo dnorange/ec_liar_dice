@@ -1,0 +1,3 @@
+rm -rf _builds _steps _projects _cache _temp
+wercker build --git-domain github.com --git-owner dnorange --git-repository ec_liar_dice
+rm -rf _builds _steps _projects _cache _temp 

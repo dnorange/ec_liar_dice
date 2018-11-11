@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512MB
+  instances: 1
+  name: ec_liar_dice
+  disk_quota: 1024M
+  command: ec_liar_dice
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  services:
+   - mongodb

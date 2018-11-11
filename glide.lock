@@ -1,0 +1,27 @@
+hash: a03f6e15ffd32d8dcae5d1687ef38575736e1ec97b967e520c7e9cd173aded32
+updated: 2018-11-11T21:20:29.567889+08:00
+imports:
+- name: github.com/cloudfoundry-community/go-cfenv
+  version: dd6b21aad7ac4c201b643e4e5e5b1a97a6e638a1
+- name: github.com/cloudnativego/cf-tools
+  version: f59655db37a9fbf2c5cf9095211b9950ff2dab24
+- name: github.com/cloudnativego/cfmgo
+  version: 35605f2df87ae242b8c1fdef3c7ebc07916e339b
+  subpackages:
+  - params
+- name: github.com/cloudnativego/gogo-engine
+  version: 256cb157fb61886eada3c2ec613fbb4428f5ca3f
+- name: github.com/codegangsta/negroni
+  version: 0af0d913cfc4cc6c389cc402eb70bf8a8fec374d
+- name: github.com/gorilla/mux
+  version: 3d80bc801bb034e17cae38591335b3b1110f1c47
+- name: github.com/unrolled/render
+  version: b9786414de4d903830df7ac38eea68a0e3267a35
+- name: gopkg.in/mgo.v2
+  version: 9856a29383ce1c59f308dd1cf0363a79b5bef6b5
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+testImports: []
