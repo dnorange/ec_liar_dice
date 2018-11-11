@@ -1,5 +1,5 @@
-hash: a03f6e15ffd32d8dcae5d1687ef38575736e1ec97b967e520c7e9cd173aded32
-updated: 2018-11-11T21:20:29.567889+08:00
+hash: 1e69a5ab533c180e3d6ca8c9475cf0bca1feae69d3dd717a7d9812878e08935d
+updated: 2018-11-12T01:13:26.780699+08:00
 imports:
 - name: github.com/cloudfoundry-community/go-cfenv
   version: dd6b21aad7ac4c201b643e4e5e5b1a97a6e638a1
@@ -13,8 +13,14 @@ imports:
   version: 256cb157fb61886eada3c2ec613fbb4428f5ca3f
 - name: github.com/codegangsta/negroni
   version: 0af0d913cfc4cc6c389cc402eb70bf8a8fec374d
+- name: github.com/google/uuid
+  version: 9b3b1e0f5f99ae461456d768e7d301a7acdaa2d8
 - name: github.com/gorilla/mux
   version: 3d80bc801bb034e17cae38591335b3b1110f1c47
+- name: github.com/mitchellh/mapstructure
+  version: 3536a929edddb9a5b34bd6861dc4a9647cb459fe
+- name: github.com/pborman/uuid
+  version: 8b1b92947f46224e3b97bb1a3a5b0382be00d31e
 - name: github.com/unrolled/render
   version: b9786414de4d903830df7ac38eea68a0e3267a35
 - name: gopkg.in/mgo.v2
