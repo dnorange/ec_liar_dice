@@ -10,7 +10,7 @@ WORKDIR $SRC_DIR
 
 RUN mkdir -p /go_bin
 RUN export GO111MODULE=on && export GOPROXY=https://goproxy.cn && go mod tidy && \
-    CGO_ENABLED=1 GOBIN=/go_bin go install -ldflags '-w -s' -v -tags netgo $SRC_DIR/cmd/...
+    CGO_ENABLED=1 GOBIN=/go_bin go install -ldflags '-w -s' -v -tags netgo $SRC_DIR/...
 
 # Pull enjoyfood into a second stage deploy alpine container
 FROM alpine:latest
