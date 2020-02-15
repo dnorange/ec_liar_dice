@@ -13,7 +13,11 @@ pipeline {
     }
     stage('Push Images') {
       steps {
-        sh './deploy/devops/scripts/push-images.sh'
+        script {
+          withDockerRegistry(credentialsId: 'dockerhub') {
+            sh './deploy/devops/scripts/push-images.sh'
+          }
+        }
       }
     }
     stage ('Verify') {
